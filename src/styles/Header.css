@@ -1,0 +1,14 @@
+.PageHeader {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.Title {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}

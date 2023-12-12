@@ -1,0 +1,85 @@
+/* ImageSliderContainer.css */
+
+/* Container styling */
+.swiper_container {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  overflow: hidden; /* Ensure that the slider and its contents don't overflow */
+}
+
+/* Slide image styling */
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* Overlay text styling */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Slider controller styling */
+.slider-controller {
+  position: absolute;
+  bottom: 20px; /* Adjustable margin */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center the items vertically */
+}
+
+/* Slider arrow styling */
+.slider-arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Previous and next button styling */
+.swiper-button-prev,
+.swiper-button-next {
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Pagination styling */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px; /* Adjustable margin */
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+/* Pagination bullet styling */
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(212, 210, 210, 0.5);
+  margin: 0 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Active bullet styling */
+.swiper-pagination-bullet-active {
+  background-color: white;
+}

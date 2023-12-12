@@ -1,0 +1,76 @@
+/* Exam.css */
+
+.Exam {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #efefef;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #969696;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 500px;
+}
+
+button:hover {
+  background-color: #c4c4c4;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+.result-container ul {
+  padding-left: 20px;
+}
+
+.result-container li {
+  margin-bottom: 15px;
+}
+
+.result-container p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.Exam p {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
